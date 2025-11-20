@@ -50,6 +50,9 @@ dependencies {
 
     implementation(libs.coroutines.android)
     implementation(libs.coroutines.core)
+    implementation(libs.retrofit.moshi)
+    implementation(libs.retrofit.core)
+
 
     // OkHttp usando el BOM del libs.versions.toml
     implementation(platform(libs.http.bom))
